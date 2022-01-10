@@ -71,13 +71,49 @@ y = 2
 
 print(x%y)
 
+# lists
 
+thislist = ["apple", "banana", "cherry"]
+i = 0
+while i < len(thislist):
+  print(thislist[i])
+  i = i + 1
+print(len(thislist))
 
+# for loop
+fruits = ["apple", "banana", "mango", "strawberry"]
+new_list = [ x for x in fruits if x != "a"]
+print(new_list)
 
+#for loop
+x = [1,1,2,2,3]
+for i in x:
+    print(i)
 
+print(x)
 
+# comprehension lists
 
+new_list = [ x for x in range(10) if x < 5]
+print(new_list)
 
+# tuples
+fruits = ("apple", "banana", "cherry")
+
+(green, yellow, red) = fruits
+
+print(green)
+print(yellow)
+print(red)
+
+# tuples 2
+fruits = ("apple", "banana", "cherry", "strawberry", "raspberry")
+
+(green, *yellow, red) = fruits
+
+print(green)
+print(yellow)
+print(red)
 
 
 
